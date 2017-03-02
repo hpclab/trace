@@ -11,6 +11,7 @@ Carlini, Emanuele and Lulli, Alessandro and Ricci, Laura
 **TRACE: generating traces from mobility models for Distributed Virtual Environments** 
 Euro-Par 2016: Parallel Processing Workshops (2016) (to appear).
 
+```
 @article{carlini2016trace,
 	title={TRACE: generating traces from mobility models for Distributed Virtual Environments},
 	author={Carlini, Emanuele and Lulli, Alessandro and Ricci, Laura},
@@ -20,10 +21,13 @@ Euro-Par 2016: Parallel Processing Workshops (2016) (to appear).
 	organization={Springer},
 	addendum={\emph{to appear}}
 }
+```
 
 ### How to build
 
+```
 mvn clean package
+```
 
 ### How to configure
 It is required two files:
@@ -56,4 +60,6 @@ ENABLE_GRAPHIC true
 
 ### How to run
 
+```
 java -cp target/traceGenerator-jar-with-dependencies.jar test.Main config-file-specification-2
+```
