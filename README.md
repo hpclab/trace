@@ -29,6 +29,7 @@ mvn clean package
 It is required two files:
 1) a mapping file called mobilityModel.conf between model name and the class that implement the model
 
+```
 model.lapt ema.dve.workload.mobility.latp.Lapt
 model.randomwalk ema.dve.workload.mobility.random.RandomWalk
 model.randomwaypoint ema.dve.workload.mobility.random.RandomWayPoint
@@ -36,9 +37,11 @@ model.bluebanana ema.dve.workload.mobility.secondlife.BlueBananaParallel
 model.rpgm ema.dve.workload.mobility.rpgm.Rpgm
 model.mixed ema.dve.workload.mobility.mixed.Mixed
 model.sympathy ema.dve.workload.mobility.sympathy.Sympathy
+```
 
 2) a configuration file for the model. Following an example:
 
+```
 model bluebanana
 AVATAR 200
 HOTSPOT_NUM 20
@@ -49,7 +52,7 @@ MAP_HEIGHT 1500
 AOI_RADIUS 20
 ENABLE_DUMP true
 ENABLE_GRAPHIC true
-
+```
 
 ### How to run
 
