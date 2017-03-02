@@ -53,4 +53,4 @@ ENABLE_GRAPHIC true
 
 ### How to run
 
-java -cp target/traceGenerator-jar-with-dependencies.jar test.Main <config-file-specification-2>
+java -cp target/traceGenerator-jar-with-dependencies.jar test.Main config-file-specification-2
