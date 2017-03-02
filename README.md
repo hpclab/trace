@@ -5,11 +5,11 @@ Avatars’ mobility is an essential element to design, validate and compare diff
 
 ### Publications
 
-**2016 - IEEE Transaction on Parallel and Distributed Systems**
+**2016 - Euro-Par 2016: Parallel Processing Workshops**
 
 Carlini, Emanuele and Lulli, Alessandro and Ricci, Laura
 **TRACE: generating traces from mobility models for Distributed Virtual Environments** 
-IEEE Transactions on parallel and distributed systems (2016) (to appear).
+Euro-Par 2016: Parallel Processing Workshops (2016) (to appear).
 
 @article{carlini2016trace,
 	title={TRACE: generating traces from mobility models for Distributed Virtual Environments},
